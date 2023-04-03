@@ -130,7 +130,7 @@ export default function Home() {
               </div>
               <div className=' flex flex-col items-start justify-center'>
                 <h4 className=' text-blue-400 pb-2 text-xl md:text-lg '>Family Food</h4>
-                <p className='text-gray-500 text-sm py-2' id={theme === "dark" ? "darkmood" : undefined}> Building E-commerce App For Family Company With Web Dashboard For Manager And Mobile Device For Clients That Has Advanced  Feauters Like (Payment Integration - Monthly Back Up Data - Installment And Full Cash Support - Real Time Chat  )   </p>
+                <p className='text-gray-500 text-sm py-2' id={theme === "dark" ? "darkmood-color" : undefined}> Building E-commerce App For Family Company With Web Dashboard For Manager And Mobile Device For Clients That Has Advanced  Feauters Like (Payment Integration - Monthly Back Up Data - Installment And Full Cash Support - Real Time Chat  )   </p>
                   <h5 className='text-gray-600'>Technologies</h5>
                 <ul className='flex  flex-wrap text-blue-400 text-sm' >
                   <li className='pr-1'> React JS | </li> 
@@ -180,7 +180,7 @@ export default function Home() {
               </div>
               <div className=' flex flex-col items-start justify-center'>
                 <h4 className=' text-blue-400 pb-2 text-xl md:text-lg '>Wood-Essence</h4>
-                <p className='text-gray-500 text-sm py-2'> Building Landing Page For Wood-Essence-Furniture-store With Responsive Design  For Mobile Device </p>
+                <p className='text-gray-500 text-sm py-2' id={theme === "dark" ? "darkmood-color" : undefined}> Building Landing Page For Wood-Essence-Furniture-store With Responsive Design  For Mobile Device </p>
                   <h5 className='text-gray-600'>Technologies</h5>
                 <ul className='flex  flex-wrap text-blue-400 text-sm'>
                   <li className='pr-1'> HTML5 | </li> 
@@ -200,7 +200,7 @@ export default function Home() {
               </div>
               <div className=' flex flex-col items-start justify-center'>
                 <h4 className=' text-blue-400 pb-2 text-xl md:text-lg '>Weather App</h4>
-                <p className='text-gray-500 text-sm py-2'> Building Weather App For Responsive Design  For Mobile Device </p>
+                <p className='text-gray-500 text-sm py-2' id={theme === "dark" ? "darkmood-color" : undefined}> Building Weather App For Responsive Design  For Mobile Device </p>
                   <h5 className='text-gray-600'>Technologies</h5>
                 <ul className='flex  flex-wrap text-blue-400 text-sm'>
                   <li className='pr-1'> HTML5 | </li> 
