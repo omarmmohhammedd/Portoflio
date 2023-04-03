@@ -48,10 +48,10 @@ export default function Home() {
             </ul>
           </nav>
           <div className='px-5 text-center'>
-            <h2 className='text-4xl pb-3 text-teal-500 font-semibold'>Hi I'm Omar Naguib</h2>
+            <h2 className='text-4xl pb-3 text-teal-500 font-semibold'>Hi I&apos;m Omar Naguib</h2>
             <h3 className='text-xl pb-3' id={theme === "dark" ? "darkmood-color" : undefined} >Full Stack  Developer . </h3>
             <p className='text-md pb-2 leading-8 text-gray-800' id={theme === "dark" ? "darkmood-color" : undefined}>Freelancer Services For Programming needs.</p>
-            <p className='text-md pb-2  text-gray-800' id={theme === "dark" ? "darkmood-color" : undefined}>Let's Go For Discover More About Me <BsChevronDoubleDown className='inline text-teal-500 animate-bounce text-md' /> </p>
+            <p className='text-md pb-2 text-gray-800' id={theme === "dark" ? "darkmood-color" : undefined}>Let&apos;s Go For Discover More About Me <BsChevronDoubleDown className='inline text-teal-500 animate-bounce text-md' /> </p>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-400 rounded-full w-80 h-80 '>
             <Image src={deved} alt='deved' className='pt-5' />
@@ -69,14 +69,14 @@ export default function Home() {
               <div className='flex-col'>
                 <h3 className='text-3xl pb-2 text-teal-600'>Education </h3>
                 <div className='text-md  p-4 leading-8 text-white bg-teal-600 rounded-lg h-full flex items-center' id={theme === "dark" ? "darkmood-color-cards" : undefined} >
-                  I'm Graduated From Higher Technological Institute In 2023 Computer Science Department With Very Good Grade And Degree Of Graduate Project is Excellent
+                  I&apos;m Graduated From Higher Technological Institute In 2023 Computer Science Department With Very Good Grade And Degree Of Graduate Project is Excellent
                 </div>
               </div>
-              <div className='flex-col '>
+              <div className='flex-col'>
                 <h3 className='text-3xl pb-2 text-blue-400'>About Me </h3>
                 <div className=' p-4  leading-8 text-white bg-blue-400 rounded-lg h-full  flex items-center ' id={theme === "dark" ? "darkmood-color-cards" : undefined} >
                   <p>Since The Beginning Of My Journey As A Freelancer Developer in 2021
-                    I'v Done Remote Work For Various Clients Developing Scalable, Performant And Secure Web Applications using
+                    I&apos;v Done Remote Work For Various Clients Developing Scalable, Performant And Secure Web Applications using
                     <span className='text-slate-700 font-semibold'> Node JS </span>,
                     <span className='text-slate-700 font-semibold'> Express JS </span> ,
                     <span className='text-slate-700 font-semibold'> React JS </span>
