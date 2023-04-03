@@ -39,12 +39,13 @@ export default function Home() {
               <li>
                 <a onClick={() => {
                   var link = document.createElement('a');
-                  link.href = 'http://localhost:3000/CV.pdf';
-                  link.download = 'CV.pdf';
+                  
+                  link.href = `${window.location.href}/CV.pdf`;
+                  link.download = 'Resume.pdf';
                   document.body.appendChild(link);
                   link.click();
                   document.body.removeChild(link);
-                }} className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Resume</a>
+                }} className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 cursor-pointer'>Resume</a>
               </li>
             </ul>
           </nav>
