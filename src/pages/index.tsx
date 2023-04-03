@@ -9,6 +9,7 @@ import deved from "../../public/dev-ed-wave.png"
 import e_commerce from "../../public/E-commerce.png"
 import Waddy from "../../public/Waddy.png"
 import Furniture from "../../public/Furniture.jpg"
+import weather from "../../public/weatherApp.jpg"
 import { useState } from 'react'
 export default function Home() {
   const [theme , setTheme] = useState("light")
@@ -186,6 +187,28 @@ export default function Home() {
                   <li className='pr-1'> JavaScript </li> 
                 </ul>
                 <a href='https://omarmmohhammedd.github.io/Wood-Essence-Furniture-store/
+                ' target='_blank' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-center cursor-pointer text-white w-48 p-2 my-2 rounded-lg'>View On Github <BsBoxArrowInUpRight className='inline' /></a>
+              </div>
+            </div>
+          </div>
+          <div className='bg-slate-50 drop-shadow-xl p-5 rounded-xl max-w-4xl mt-4  m-auto
+          ' id={theme === "dark" ? "darkmood-color-cards" : undefined}>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 '>
+              <div className='w-full'>
+                <Image src={weather} alt='weather' className='w-70 h-full' />
+              </div>
+              <div className=' flex flex-col items-start justify-center'>
+                <h4 className=' text-blue-400 pb-2 text-xl md:text-lg '>Weather App</h4>
+                <p className='text-gray-500 text-sm py-2'> Building Weather App For Responsive Design  For Mobile Device </p>
+                  <h5 className='text-gray-600'>Technologies</h5>
+                <ul className='flex  flex-wrap text-blue-400 text-sm'>
+                  <li className='pr-1'> HTML5 | </li> 
+                  <li className='pr-1'> CSS3 | </li> 
+                  <li className='pr-1'> JavaScript </li> 
+                  <li className='pr-1'> React JS </li> 
+                  <li className='pr-1'> REST API</li> 
+                </ul>
+                <a href='https://omarmmohhammedd.github.io/Weather-App/
                 ' target='_blank' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-center cursor-pointer text-white w-48 p-2 my-2 rounded-lg'>View On Github <BsBoxArrowInUpRight className='inline' /></a>
               </div>
             </div>
